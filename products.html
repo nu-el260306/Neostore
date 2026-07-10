@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Browse premium products at NeoStore.">
+
+<title>Products | NeoStore</title>
+
+<link rel="icon"
+href="images/logo.png">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet"
+href="css/products.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+
+<img src="images/logo.png"
+alt="NeoStore Logo">
+
+</a>
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="products.html" class="active">Products</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="nav-actions">
+
+<div class="search-box">
+
+<input
+type="search"
+id="searchInput"
+placeholder="Search products...">
+
+<button>
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+
+</div>
+
+<a href="login.html" class="login-btn">
+
+Login
+
+</a>
+
+<a href="signup.html" class="signup-btn">
+
+Sign Up
+
+</a>
+
+<a href="cart.html" class="cart-icon">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<span class="cart-count">
+
+0
+
+</span>
+
+</a>
+
+<button id="themeBtn">
+
+🌙
+
+</button>
+
+<div id="menuBtn"
+class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<!--========================
+      PAGE HERO
+=========================-->
+
+<section class="page-hero">
+
+<h1>
+
+Our Products
+
+</h1>
+
+<p>
+
+Explore our premium collection of electronics and lifestyle products.
+
+</p>
+
+</section>
+
+<!--========================
+      FILTER SECTION
+=========================-->
+
+<section class="filters">
+
+<div class="filter-buttons">
+
+<button class="filter-btn active">
+
+All
+
+</button>
+
+<button class="filter-btn">
+
+Laptops
+
+</button>
+
+<button class="filter-btn">
+
+Phones
+
+</button>
+
+<button class="filter-btn">
+
+Gaming
+
+</button>
+
+<button class="filter-btn">
+
+Audio
+
+</button>
+
+<button class="filter-btn">
+
+Accessories
+
+</button>
+
+</div>
+
+<div class="sort-box">
+
+<label>
+
+Sort By
+
+</label>
+
+<select>
+
+<option>
+
+Newest
+
+</option>
+
+<option>
+
+Price: Low to High
+
+</option>
+
+<option>
+
+Price: High to Low
+
+</option>
+
+<option>
+
+Best Selling
+
+</option>
+
+</select>
+
+</div>
+
+</section>
+
+<!--========================
+      PRODUCT GRID
+=========================-->
+
+<section class="products-page">
+
+<div class="products-grid">
+
+<!--========================
+        PRODUCT 1
+=========================-->
+
+<div class="product-card">
+
+<span class="badge">NEW</span>
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/laptop.jpg" alt="NeoBook Pro X">
+
+<h3>NeoBook Pro X</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$1,199 <span>$1,399</span>
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=laptop" class="details-btn">
+View Details
+</a>
+
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 2 -->
+
+<div class="product-card">
+
+<span class="badge sale">SALE</span>
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/phone.jpg" alt="Galaxy Ultra">
+
+<h3>Galaxy Ultra</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$899 <span>$999</span>
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=phone" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 3 -->
+
+<div class="product-card">
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/headphones.jpg" alt="NeoPods Max">
+
+<h3>NeoPods Max</h3>
+
+<div class="rating">
+
+★★★★☆
+
+</div>
+
+<p class="price">
+
+$249
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=headphones" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 4 -->
+
+<div class="product-card">
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/smartwatch.jpg" alt="NeoWatch Pro">
+
+<h3>NeoWatch Pro</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$349
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=watch" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 5 -->
+
+<div class="product-card">
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/camera.jpg" alt="NeoCam 4K">
+
+<h3>NeoCam 4K</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$699
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=camera" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 6 -->
+
+<div class="product-card">
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/keyboard.jpg" alt="Mechanical Keyboard">
+
+<h3>Mechanical Keyboard</h3>
+
+<div class="rating">
+
+★★★★☆
+
+</div>
+
+<p class="price">
+
+$129
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=keyboard" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 7 -->
+
+<div class="product-card">
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/mouse.jpg" alt="Gaming Mouse">
+
+<h3>Gaming Mouse</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$79
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=mouse" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 8 -->
+
+<div class="product-card">
+
+<span class="badge hot">HOT</span>
+
+<button class="wishlist-btn">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<img src="images/products/speaker.jpg" alt="Bluetooth Speaker">
+
+<h3>Bluetooth Speaker</h3>
+
+<div class="rating">
+
+★★★★★
+
+</div>
+
+<p class="price">
+
+$159
+
+</p>
+
+<div class="product-buttons">
+
+<a href="product-details.html?product=speaker" class="details-btn">
+View Details
+</a>
+
+<button class="cart-btn">
+
+Add to Cart
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--========================
+        PAGINATION
+=========================-->
+
+<section class="pagination">
+
+<a href="#" class="page-btn active">1</a>
+
+<a href="#" class="page-btn">2</a>
+
+<a href="#" class="page-btn">3</a>
+
+<a href="#" class="page-btn">
+
+<i class="fa-solid fa-angle-right"></i>
+
+</a>
+
+</section>
+
+<!--========================
+        NEWSLETTER
+=========================-->
+
+<section class="newsletter">
+
+<div class="newsletter-content">
+
+<h2>Never Miss a Deal</h2>
+
+<p>
+
+Subscribe to receive exclusive discounts, new arrivals, and special offers.
+
+</p>
+
+<form class="newsletter-form">
+
+<input
+type="email"
+placeholder="Enter your email address"
+required>
+
+<button type="submit">
+
+Subscribe
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!--========================
+          FOOTER
+=========================-->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<img src="images/logo.png"
+alt="NeoStore Logo"
+class="footer-logo">
+
+<p>
+
+Smart Shopping. Modern Living.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<a href="index.html">Home</a>
+
+<a href="products.html">Products</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Customer Care</h3>
+
+<a href="#">Track Order</a>
+
+<a href="#">Returns</a>
+
+<a href="#">Shipping</a>
+
+<a href="#">FAQs</a>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Contact</h3>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Lagos, Nigeria
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-phone"></i>
+
++234 901 234 5678
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+support@neostore.com
+
+</p>
+
+<div class="social-icons">
+
+<a href="#">
+
+<i class="fab fa-facebook-f"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-x-twitter"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-linkedin-in"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 NeoStore. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<!--========================
+      BACK TO TOP
+=========================-->
+
+<button id="scrollTopBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

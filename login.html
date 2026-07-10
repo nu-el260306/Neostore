@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Login to your NeoStore account">
+
+<title>Login | NeoStore</title>
+
+<link rel="icon"
+href="images/logo.png">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet"
+href="css/auth.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+
+<img src="images/logo.png"
+alt="NeoStore Logo">
+
+</a>
+
+<ul class="nav-links"
+id="navLinks">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="nav-actions">
+
+<a href="login.html"
+class="login-btn active">
+
+Login
+
+</a>
+
+<a href="signup.html"
+class="signup-btn">
+
+Sign Up
+
+</a>
+
+<button id="themeBtn">
+
+🌙
+
+</button>
+
+<div id="menuBtn"
+class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<!--========================
+        LOGIN
+=========================-->
+
+<section class="auth-section">
+
+<div class="auth-left">
+
+<img src="images/login-illustration.png"
+alt="Login Illustration">
+
+<h1>
+
+Welcome Back!
+
+</h1>
+
+<p>
+
+Sign in to continue shopping, track your orders, save your wishlist and enjoy exclusive member discounts.
+
+</p>
+
+</div>
+
+<div class="auth-right">
+
+<div class="auth-card">
+
+<h2>
+
+Login
+
+</h2>
+
+<p>
+
+Enter your account details below.
+
+</p>
+
+<form id="loginForm">
+
+<div class="input-group">
+
+<label>Email Address</label>
+
+<input
+type="email"
+placeholder="Enter your email"
+required>
+
+</div>
+
+<div class="input-group">
+
+<label>Password</label>
+
+<div class="password-box">
+
+<input
+type="password"
+id="password"
+placeholder="Enter your password"
+required>
+
+<i class="fa-solid fa-eye"
+id="togglePassword"></i>
+
+</div>
+
+</div>
+
+<div class="auth-options">
+
+<label class="remember-me">
+
+<input type="checkbox">
+
+Remember Me
+
+</label>
+
+<a href="#" class="forgot-password">
+
+Forgot Password?
+
+</a>
+
+</div>
+
+<button type="submit" class="auth-btn">
+
+<i class="fa-solid fa-right-to-bracket"></i>
+
+Login
+
+</button>
+
+<div class="divider">
+
+<span>OR</span>
+
+</div>
+
+<div class="social-login">
+
+<button type="button" class="google-btn">
+
+<img src="images/icons/google.png" alt="Google">
+
+Continue with Google
+
+</button>
+
+<button type="button" class="apple-btn">
+
+<img src="images/icons/apple.png" alt="Apple">
+
+Continue with Apple
+
+</button>
+
+</div>
+
+<p class="auth-switch">
+
+Don't have an account?
+
+<a href="signup.html">
+
+Create One
+
+</a>
+
+</p>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!--========================
+        BENEFITS
+=========================-->
+
+<section class="auth-benefits">
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-bolt"></i>
+
+<h3>Fast Checkout</h3>
+
+<p>
+
+Save your details for quicker purchases.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-heart"></i>
+
+<h3>Wishlist</h3>
+
+<p>
+
+Save products to buy later.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<i class="fa-solid fa-box"></i>
+
+<h3>Track Orders</h3>
+
+<p>
+
+Monitor every order in real time.
+
+</p>
+
+</div>
+
+</section>
+
+<!--========================
+          FOOTER
+=========================-->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<img src="images/logo.png"
+
+class="footer-logo"
+
+alt="NeoStore">
+
+<p>
+
+Smart Shopping. Modern Living.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<a href="index.html">Home</a>
+
+<a href="products.html">Products</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Support</h3>
+
+<a href="#">FAQs</a>
+
+<a href="#">Privacy Policy</a>
+
+<a href="#">Terms & Conditions</a>
+
+<a href="#">Returns</a>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Follow Us</h3>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-x-twitter"></i></a>
+
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 NeoStore. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<button id="scrollTopBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
